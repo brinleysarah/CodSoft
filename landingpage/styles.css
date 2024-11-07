@@ -6,8 +6,9 @@ body {
 }
 h1 {
   color: #2a2928;
-  font-size: 20px;
+  font-size: 40px;
   font-weight: 500px;
+  padding-left: 100px;
 }
 .search-form {
   display: flex;
@@ -57,6 +58,7 @@ img {
   border-radius: 20px;
   opacity: 0.7;
   transition: 1s ease;
+  padding: 5px;
 }
 
 img:hover {
@@ -72,11 +74,28 @@ img:hover {
   padding-top: 15px;
 }
 .intro-text h1 {
-  font-size: 20px;
+  font-size: 25px;
   margin-bottom: 10px;
 }
 
 .intro-text p {
   font-size: 15px;
   line-height: 1.6;
+}
+
+.info-list {
+  padding-left: 20px;
+  line-height: 1.6;
+}
+
+.info-list h2 {
+  font-size: 25px;
+}
+
+.info-list ul {
+  font-size: 15px;
+}
+
+.img-icon {
+  max-width: 120px;
 }
