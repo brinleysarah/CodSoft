@@ -4,15 +4,19 @@ body {
   background-image: linear-gradient(120deg, #e0c3fc 0%, #8ec5fc 100%);
   color: #100c07;
 }
+.header-icon {
+  max-width: 100px;
+}
 h1 {
   color: #2a2928;
   font-size: 40px;
   font-weight: 500px;
-  padding-left: 100px;
+  padding-right: 700px;
 }
 .search-form {
   display: flex;
   gap: 10px;
+  justify-content: flex-end;
 }
 .search-input {
   padding: 8px;
@@ -41,7 +45,8 @@ h1 {
   justify-content: space-between;
   align-items: center;
   background-color: rgb(253, 253, 253);
-  padding: 20px;
+  padding: 30px;
+  margin: 0 auto;
 }
 
 .main-body {
@@ -72,20 +77,34 @@ img:hover {
   text-align: right;
   padding-right: 20px;
   padding-top: 15px;
+  text-align: justify;
+  text-justify: inter-word;
 }
 .intro-text h1 {
   font-size: 25px;
   margin-bottom: 10px;
+  line-height: 2;
 }
 
 .intro-text p {
   font-size: 15px;
-  line-height: 1.6;
+  line-height: 2;
+}
+
+.main-container {
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+  flex-direction: column;
 }
 
 .info-list {
   padding-left: 20px;
-  line-height: 1.6;
+  line-height: 2;
+  width: 60%;
+  text-align: left;
+  text-align: justify;
+  text-justify: inter-word;
 }
 
 .info-list h2 {
@@ -98,4 +117,16 @@ img:hover {
 
 .img-icon {
   max-width: 120px;
+}
+
+.featured-sounds {
+  padding-left: 20px;
+  padding-right: 20px;
+  text-align: center;
+  text-justify: inter-word;
+  line-height: 2;
+}
+
+footer {
+  font-size: 12px;
 }
