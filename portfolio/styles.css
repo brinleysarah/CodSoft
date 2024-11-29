@@ -1,0 +1,74 @@
+body {
+  font-family: "Cherry Swash", cursive;
+  background-color: #ffe4e6;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+
+header {
+  background-color: #ff9ebb;
+  padding: 1rem;
+  color: white;
+}
+
+header h1 {
+  font-family: "Pacifico", cursive;
+  margin: 0;
+}
+
+header p {
+  margin: 0;
+  font-size: 1.2rem;
+}
+
+button {
+  background-color: #934fff;
+  border: none;
+  padding: 0.5rem 1rem;
+  color: white;
+  font-size: 1rem;
+  margin-top: 1rem;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+main {
+  padding: 2rem;
+}
+
+section {
+  margin-bottom: 2rem;
+  background-color: #ffe6f0;
+  padding: 1rem;
+  border-radius: 10px;
+}
+
+h2 {
+  font-family: "Pacifico", cursive;
+  color: #ff9ebb;
+}
+
+.project-links a,
+.resume.btn {
+  display: inline-block;
+  margin: 0.5rem;
+  background-color: #ff7fa1;
+  color: white;
+  padding: 0.5rem 1rem;
+  border-radius: 5px;
+  text-decoration: none;
+  font-size: 1rem;
+}
+
+.project-links a:hover,
+.resume-btn:hover {
+  background-color: #ff9ebb;
+}
+
+footer {
+  background-color: #ff9ebb;
+  color: white;
+  padding: 1rem 0;
+  margin-top: 2rem;
+}
