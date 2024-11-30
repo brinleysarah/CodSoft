@@ -23,6 +23,20 @@ body {
   color: var(--text-color);
 }
 
+.circular-picture {
+  position: relative;
+  left: 36%;
+  width: 200px;
+  height: 200px;
+  overflow: hidden;
+  border-radius: 50%;
+}
+.profile-img {
+  width: 100%;
+  height: auto;
+  margin-bottom: 1rem;
+}
+
 header {
   background-color: var(--accent-color);
   padding: 1rem;
