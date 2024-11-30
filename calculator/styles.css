@@ -1,13 +1,61 @@
-#keys {
+body {
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #5c5470;
+}
+
+.calculator {
+  font-family: "Courier New", Courier, monospace;
+  background-color: #abaab8;
+  border-radius: 20px;
+  max-width: 500px;
+  overflow: hidden;
+}
+
+#display {
+  width: 100%;
+  font-size: 5rem;
+  text-align: left;
+  border: none;
+  padding: 20px;
+  margin-bottom: 20px;
+  background-color: #ececec;
+  color: white;
+}
+
+.keys {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 10px;
+  padding: 25px;
 }
 button {
   width: 100px;
   height: 100px;
   border-radius: 50px;
   border: none;
-  background-color: antiquewhite;
+  background-color: #474787;
   color: black;
   font-size: 3rem;
   font-weight: bold;
   cursor: pointer;
+}
+button:hover {
+  cursor: pointer;
+  background-color: #ececec;
+}
+button:active {
+  background-color: #dac0c0;
+}
+.sum-buttons {
+  background-color: aliceblue;
+}
+.sum-buttons:hover {
+  background-color: #c4c1e0;
+}
+.sum-buttons:active {
+  background-color: #dac0c0;
 }
