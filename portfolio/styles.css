@@ -139,7 +139,7 @@ a {
 
 a:hover,
 button:hover {
-  background-color: var(--accent-color);
+  background-color: var(--text-color);
   cursor: pointer;
   transition: 0.5s ease;
   color: white;
