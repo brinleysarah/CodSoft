@@ -1,21 +1,21 @@
 :root {
-  --bg-color: #ffe4e6;
+  --bg-image: #fef8f2;
   --text-color: #333;
-  --accent-color: #ff9ebb;
-  --button-color: #ff7fa1;
+  --accent-color: #e7b8d9;
+  --button-color: #e38886;
   --secondary-bg: #ffe6f0;
 }
 
 [data-theme="purple"] {
-  --bg-color: #f4e3ff;
+  --bg-color: #7a6b94;
   --text-color: #2b2b2b;
-  --accent-color: #a373ff;
-  --button-color: #934fff;
+  --accent-color: #292860;
+  --button-color: #653771;
   --secondary-bg: #e9d5ff;
 }
 
 body {
-  font-family: "Cherry Swash", cursive;
+  font-family: "Montserrat Alternates", serif;
   background-color: var(--bg-color);
   margin: 0;
   padding: 0;
@@ -30,8 +30,14 @@ header {
 }
 
 header h1 {
-  font-family: "Pacifico", cursive;
+  font-family: "Bodoni Moda", serif;
+  font-style: italic;
   margin: 0;
+}
+
+.description {
+  font-family: "Bodoni Moda", serif;
+  font-style: italic;
 }
 
 header p {
@@ -40,6 +46,7 @@ header p {
 }
 
 button {
+  font-family: "Montserrat Alternates", serif;
   background-color: var(--button-color);
   border: none;
   padding: 0.5rem 1rem;
@@ -55,10 +62,12 @@ main {
 }
 
 section {
+  width: 700px;
+  margin: auto;
   margin-bottom: 2rem;
   background-color: var(--secondary-bg);
   padding: 1rem;
-  border-radius: 10px;
+  border-radius: 15px;
 }
 
 ul {
@@ -69,28 +78,63 @@ ul {
 
 li {
   margin: 0.5rem 0;
+  padding: 10px;
+}
+
+.project-item {
+  margin-bottom: 2rem;
+  text-align: center;
+}
+
+.project-item img {
+  max-width: 600px;
+  height: auto;
+  border-radius: 10px;
+  margin: 1rem 0;
+}
+
+img:hover {
+  transform: scale(1.2);
+  transition: 1s ease;
+  cursor: pointer;
 }
 
 h2 {
-  font-family: "Pacifico", cursive;
-  color: var(--accent-color);
+  font-family: "Bodoni Moda", serif;
+  font-style: italic;
+  color: var(--button-color);
 }
 
-.project-links a,
-.resume.btn {
+button {
   display: inline-block;
   margin: 0.5rem;
   background-color: var(--button-color);
   color: white;
   padding: 0.5rem 1rem;
   border-radius: 5px;
-  text-decoration: none;
+
   font-size: 1rem;
 }
+a {
+  text-decoration: none;
+}
 
-.project-links a:hover,
-.resume-btn:hover {
+a:hover,
+button:hover {
   background-color: var(--accent-color);
+  cursor: pointer;
+  transition: 0.5s ease;
+  color: white;
+}
+
+.contact a {
+  color: var(--accent-color);
+  text-decoration: none;
+}
+
+.contact a:hover {
+  text-decoration: underline;
+  color: white;
 }
 
 footer {
